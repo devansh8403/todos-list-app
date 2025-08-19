@@ -1,9 +1,11 @@
 import React from 'react'
+import TodoItem from '../myComponents/TodoItem'
 
-export default function Todos() {
+export default function Todos(props) {
   return (
     <div>
-      todo works!
+      <h3>Todo list</h3>
+      <TodoItem todo = {props.todos[0]}/>
     </div>
   )
 }

@@ -31,10 +31,10 @@ export default function Header(props) {
 
 Header.defaultProps={
   title : "My Todos List",
-  searchBar : true
+  // searchBar : true
 }
 
 Header.propTypes={
   title : PropTypes.string,
-  searchBar : PropTypes.bool
+  searchBar : PropTypes.bool.isRequired
 }
